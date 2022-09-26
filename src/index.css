@@ -6,6 +6,7 @@ html {
   background: #4B69FD;
   border: 2px solid black;
   font-family: 'Poppins', sans-serif;
+  background-repeat: no-repeat;
 }
 
 #root {
