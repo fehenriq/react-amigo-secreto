@@ -23,7 +23,8 @@
 
   .imagem-logo {
       background-image: url("/public/img/logo-pequeno.svg");
-      width: 235px;
+      width: 250px;
       height: 199px;
+      background-repeat: no-repeat;
   }
 }

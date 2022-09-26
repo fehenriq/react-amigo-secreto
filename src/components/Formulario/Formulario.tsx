@@ -5,13 +5,9 @@ import { useMensagemDeErro } from "../../state/hooks/useMensagemDeErro"
 import './Formulario.css'
 
 const Formulario = () => {
-
   const [nome, setNome] = useState('')
-
   const inputRef = useRef<HTMLInputElement>(null)
-
   const adicionarNaLista = useAdicionarParticipante()
-
   const mensagemDeErro = useMensagemDeErro()
 
   const adicionarParticipante = (evento: React.FormEvent<HTMLFormElement>) => {
@@ -24,6 +20,7 @@ const Formulario = () => {
   return (<form onSubmit={adicionarParticipante}>
     <div className="grupo-input-btn">
       <input
+        className="input-nome"
         ref={inputRef}
         value={nome}
         onChange={evento => setNome(evento.target.value)}

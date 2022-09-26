@@ -15,6 +15,7 @@ exports[`A página de configuração Deve ser renderizada corretamente 1`] = `
           class="grupo-input-btn"
         >
           <input
+            class="input-nome"
             placeholder="Insira os nomes dos participantes"
             type="text"
             value=""

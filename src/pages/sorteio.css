@@ -51,7 +51,8 @@ p {
 
 @media screen and (max-width: 800px) {
   select {
-      width: 100%;
+      width: 95%;
+      font-size: 12px;
   }
   .botao-sortear {
       width: 220px;

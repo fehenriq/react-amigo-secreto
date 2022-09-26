@@ -1,4 +1,5 @@
 import { useListaParticipantes } from "../../state/hooks/useListaParticipantes"
+import './styles.css'
 
 const ListaParticipantes = () => {
   const participantes: string[] = useListaParticipantes()
