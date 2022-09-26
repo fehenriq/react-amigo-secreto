@@ -19,7 +19,7 @@ const Rodape = () => {
 
   return (<footer className="rodape-configuracoes">
     <button className="botao" disabled={participantes.length < 3} onClick={iniciar}>Iniciar brincadeira</button>
-    <img src="/img/sacolas.svg" alt="Sacolas de compras" />
+    <img src="./img/sacolas.svg" alt="Sacolas de compras" />
   </footer>)
 }
 

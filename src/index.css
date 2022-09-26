@@ -1,11 +1,11 @@
 html {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 html {
-  background: #4B69FD;
+  background: #4b69fd;
   border: 2px solid black;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   background-repeat: no-repeat;
 }
 
@@ -25,7 +25,7 @@ h2 {
   font-weight: 600;
   font-size: 32px;
   margin-bottom: 36px;
-  color: #4B69FD;
+  color: #4b69fd;
 }
 
 ul li {

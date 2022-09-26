@@ -3,7 +3,7 @@ footer.sorteio {
 }
 
 .sorteio .resultado {
-  color: #FE652BFC;
+  color: #fe652bfc;
   font-size: 25px;
 }
 
@@ -13,8 +13,8 @@ footer.sorteio {
   font-size: 20px;
   box-shadow: 2px 2px 0px 1px #000000;
   border-radius: 45px;
-  background-color: #FE652B;
-  color: #FFF;
+  background-color: #fe652b;
+  color: #fff;
   cursor: pointer;
   margin: 16px 0;
 }
@@ -25,7 +25,7 @@ footer.sorteio {
 }
 
 .botao-sortear:hover {
-  background-color: #4B69FD;
+  background-color: #4b69fd;
 }
 
 select {
@@ -51,10 +51,13 @@ p {
 
 @media screen and (max-width: 800px) {
   select {
-      width: 95%;
+    width: 95%;
   }
   .botao-sortear {
-      width: 220px;
-      margin: 32px 0;
+    width: 220px;
+    margin: 32px 0;
+  }
+  footer.sorteio {
+    margin: 0;
   }
 }

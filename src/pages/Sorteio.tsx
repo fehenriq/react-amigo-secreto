@@ -41,7 +41,7 @@ const Sorteio = () => {
       </form>
       {amigoSecreto && <p className="resultado" role="alert">{amigoSecreto}</p>}
       <footer className="sorteio">
-        <img src="/img/aviao.svg" className="aviao" alt="Um desenho de um avião de papel" />
+        <img src="./img/aviao.svg" className="aviao" alt="Um desenho de um avião de papel" />
       </footer>
     </section>
   </Card>)
